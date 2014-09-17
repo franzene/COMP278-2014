@@ -1,0 +1,26 @@
+Practice conversions. Using a proper text editor
+
+Convert 1590 to binary.
+0b11000110110
+Convert 0b101110110 to decimal.
+374
+Convert 0b1100 0000 0001 1010 0001 0101 1011 1010 1101 to hexadecimal.
+0xC01A15BAD
+Convert 0b100 001 101 101 to octal.
+0o4155
+Convert 0o31337 to binary.
+0b011 001 011 011 111
+Convert 0xBADF00D to binary and then to octal.
+0b1011 1010 1101 1111 0000 0000 1101
+0o1353370015
+Convert 0o6157 to binary and then to decimal.
+0b110 001 101 111
+3183
+Convert 497 to binary. Then, use two’s complement to convert 497 to -497 in binary.
+0b111110001
+0b000001111
+Convert 900.79 to binary up to the 1/16ths spot.
+0b1110000100.1100
+Count from 0 through 10 in ternary (base 3). Note: the algorithm for counting is similar regardless of the number base. Show the place values.
+000 001 002 010 011 012 020 021 022 100 101
+Save your file as lab2solution.txt, then stage, commit and push:
