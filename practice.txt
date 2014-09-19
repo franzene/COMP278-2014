@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 I would like to learn the answers to the pretest
+=======
+What do you want to learn in this class, or at this school or something?
+>>>>>>> upstream/master
