@@ -1,0 +1,67 @@
+Eric Franzen
+Show (a * b)' * (a' + b) * (b' + b) = a'
+a'+b' *(a'+b')*(b'+b) = a' DeMorgans
+a' + b' * (a'+b)*1 = a' Complement
+b' + a' * (a' + b) * 1 = a' Commutative
+b' + a' * a' + a' * b * 1 = a' Distributive
+b' + a' + a' * b * 1 = a' Idempotence
+b' + a' * a' + a' * b' * 1 = a' Distributive
+b' + a' + a' * b * 1 = a' Commutative
+a' * b + b' * 1 = a' Idempotence
+a' * 1 * 1 = a' Compliment
+a' = a' Simplify
+
+Show c + (b * c)' = 1
+c + b' + c' = 1 Demorgans
+c + c' + b' = 1 Commutative
+b' + 1 = 1 Compliment
+1 = 1 Identity
+
+Show (a + c) * (a * d + a * d') + a * c + c = a + c
+(a + c) * (a * d + a * d') + c = a + c Absorbtion
+(a + c)* a * (d + d') + c = a + c Distributive
+a * (d + d') + c = a + c Absorbtion
+a * 1 + c = a + c Compliment
+a + c = a + c Identity
+Simplify a' * (a + b) + (b + a * a) * (a + b')
+a' * (a + b) * (b + a) * (a + b') Idempotence
+a' * (a + b) * (a + b') Idempotence
+a' * a + a' * b * ( a + b') Distributive
+0 + a' * b * ( a + b') Complement
+0 + a' * b * a + b * b' Distributive
+0 + a' * b * a + 0 Complement
+0 + 0 + a' * a * b Commutative
+0 + 0 + 0 * b Complement
+0 + 0 + 0 Identity
+0 Simplify
+Show (a' * b') + (a' * b) + (a * b') = (a * b)'
+(a * b )' + (a + a') * ( b + b') = (a * b)' Distributive
+(a *b)' + 0 * 0 = (a *b)' Compliment
+(a * b )' + 0 = (a + b )' Simplify
+(a*b)' = (a * b)' Simplify
+
+Find the dual form of these expressions (DO NOT simplify):
+
+(a + b)' + c * a' + 1
+((a* b)' * c) * (a' + 0)
+
+1 + 1 * 0'
+(0 * 0) + 1'
+
+A B X Y| |
+0 0 0 0|1|
+0 0 0 1|0|!A * !B * !X * Y
+0 0 1 0|0|!A * !B * X * !Y
+0 0 1 1|0|!A * !B * X * Y
+0 1 0 0|1|
+0 1 0 1|1|
+0 1 1 0|0|!A * B * X * !Y
+0 1 1 1|0|!A * B * X * Y
+1 0 0 0|1|
+1 0 0 1|1|
+1 0 1 0|1|
+1 0 1 1|1|
+1 1 0 0|1|
+1 1 0 1|1|
+1 1 1 0|0|A * B * X * !Y
+1 1 1 1|1|
